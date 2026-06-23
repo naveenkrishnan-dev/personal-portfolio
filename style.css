@@ -250,10 +250,27 @@ nav span {
     margin-top: 30px;
     display: flex;
 }
+/* .work {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+} */
 .work {
     width: 50%;
     padding: 20px;
     position: relative;
+    min-height: 350px;
+
+    background-image: url("./assets/grid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (max-width:799px) {
+    .work {
+        width: 100%;
+        min-height: 300px;
+    }
 }
         /* MAN WORKING VIDEO */
 video {
@@ -273,11 +290,11 @@ video {
     left: 70%;
 }
         /* DOT IMAGE */
-.grids {
+/* .grids {
     height: 100%;
     width: 100%;
 
-}
+} */
 
 .abt {
     width: 50%;
