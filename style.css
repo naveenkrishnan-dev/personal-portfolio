@@ -261,7 +261,7 @@ nav span {
     position: relative;
     min-height: 350px;
 
-    background-image: url("./assets/grid.png");
+    background-image: url("assets/grid.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
